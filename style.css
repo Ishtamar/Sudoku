@@ -1,0 +1,54 @@
+.page
+{
+    max-width: 600px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction:column;
+}
+
+.principal, .principal tr, .principal td
+{
+    border color: black;
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.secondaire tr, .secondaire td
+{
+    border: none;
+}
+
+input
+{
+    text-align: center;
+}
+
+.detail
+{
+    font-style: italic;
+}
+
+.boutons
+{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.fixer
+{
+    font-weight: bold;
+    text-align: center;
+    width:60px;
+}
+
+.erreur
+{
+    background-color: red;
+    color:white;
+}
+
+.trouvable{
+    background-color:yellow;
+}
